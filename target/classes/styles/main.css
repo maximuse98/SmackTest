@@ -1,0 +1,109 @@
+.text-area {
+
+}
+
+.button {
+    -fx-background-color: #5d90e1;
+    -fx-background-radius: 30;
+    -fx-text-fill: #fffded;
+    -fx-background-insets: 0, 1, 2, 3, 0;
+    -fx-font-size: 12px;
+
+}
+
+.button:hover {
+
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-text-fill: #5d90e1;
+}
+
+.button:focused {
+    -fx-border-width: 1, 1;
+    /*-fx-border-style: solid, segments(1, 1);*/
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+#btnId {
+    -fx-background-color: disabled;
+}
+
+#btnId:focused {
+    -fx-background-color: disabled;
+}
+
+#searchId:hover{
+    -fx-border-color: #1d1d1d;
+}
+
+#searchId {
+    -fx-border-radius: 2%;
+    -fx-animated: true;
+    -fx-padding: 0 0 0 25px;
+    /*-fx-border-insets: 5px ;*/
+    /*-fx-background-insets: 30px 0 0 0;*/
+}
+
+#searchId:focused {
+    -fx-background-color: white;
+    -fx-border-color: #4e68cd;
+}
+
+#textId:hover {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+#textId:focused {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+#textId {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+/*
+
+.list-view {
+    -fx-control-inner-background-alt: -fx-control-inner-background;
+    -fx-border-color: #040528;
+}
+
+.list-cell {
+    -fx-background-color: #040528;
+    -fx-border-color: #040528;
+}
+
+.list-cell:focused {
+    -fx-border-color: #4e68cd;
+}
+
+.list-view:focused {
+    -fx-border-color: #040528;
+}
+
+.text-field {
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+}*/
+
+#userCellId {
+    -fx-background-color: #5d90e1;
+    -fx-border-color: #5d90e1
+}
+
+#userCellId:focused {
+    -fx-background-color: #5d90e1;
+    -fx-border-color: #fff6fc;
+}
+
+#msgCellId {
+    -fx-background-color: white;
+}
+
+
+
